@@ -6,11 +6,24 @@ Get your API key here https://cloud.google.com
 $ npm install
 ```
 
-Then, to run it:
+Development on an emulator:
 
 ```bash
 $ ionic cordova platform add ios
 $ ionic cordova run ios
+```
+
+Development on browser:
+
+```bash
+$ ionic cordova platform add ios
+$ ionic serve
+```
+
+Then, to build it:
+
+```bash
+$ ionic cordova build ios
 ```
 
 Substitute ios for android if not on a Mac.
